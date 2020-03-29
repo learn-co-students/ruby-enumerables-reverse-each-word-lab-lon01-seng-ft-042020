@@ -19,5 +19,5 @@ def reverse_each_word(sentence)
     reversed_word = word.reverse
     reversed_sentence = "#{reversed_sentence} #{reversed_word}"
    end
-p reversed_sentence
+p reversed_sentence.strip
 end
